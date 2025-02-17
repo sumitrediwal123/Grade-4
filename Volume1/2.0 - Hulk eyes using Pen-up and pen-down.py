@@ -1,3 +1,4 @@
+#Task: Remove the line coming between the two eyes using pen-up and pen-down.
 import turtle
 t = turtle.Turtle()
 t.shape("turtle")
