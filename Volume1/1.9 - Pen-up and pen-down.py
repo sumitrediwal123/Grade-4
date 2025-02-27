@@ -1,3 +1,4 @@
+#Why the second circle is not seen?
 #Task : Uncomment the code to see the output.
 import turtle
 t=turtle.Turtle()
