@@ -1,5 +1,4 @@
 #Task : Create another Hulk eye.
-#Hint : Take help from line 8 to 11.
 import turtle
 t = turtle.Turtle()
 t.shape("turtle")
