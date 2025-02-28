@@ -1,4 +1,4 @@
-#Task:- Fill colour in the second circle using begin_fill and the end_fill.
+#Task:- Fill colour in the smaller circle using begin_fill and the end_fill.
 import turtle
 t = turtle.Turtle()
 t.shape("turtle")
