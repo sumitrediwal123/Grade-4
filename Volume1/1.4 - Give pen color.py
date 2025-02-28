@@ -2,7 +2,7 @@
 import turtle
 t = turtle.Turtle()
 t.shape("turtle")
-# Giving pen color
+# Changing the pen color to red
 t.pencolor("red")
 t.circle(50)
 turtle.done()
