@@ -1,4 +1,7 @@
-#Task : Create another Hulk eye.
+# CHALLENGE 2:
+# Run the given code
+# Move the turtle forward by 150 steps
+# Make the second hulk eye based on the given code.
 import turtle
 t = turtle.Turtle()
 t.shape("turtle")
