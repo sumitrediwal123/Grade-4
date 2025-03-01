@@ -1,10 +1,6 @@
-#Task:- Draw multiple circles
-import turtle
-t = turtle.Turtle()
-t.shape("turtle")
-t.pencolor("red")
-t.circle(50)
-# Creating another circle with a radius of 80
+# CHALLENGE 1:
+# Task: Draw multiple circles
+# Minimum two circles
+# Each circle of different radius
+# Each circle of different pencolor
 
-
-turtle.done()
