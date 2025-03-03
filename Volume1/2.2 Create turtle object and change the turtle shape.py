@@ -1,4 +1,4 @@
-#Task:- Change the shape of the turtle to “square”.
+#Task 1:- Change the shape of the turtle to “square”.
 import turtle
 # Creating a turtle object(pen)
 t = turtle.Turtle()
