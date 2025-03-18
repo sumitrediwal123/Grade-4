@@ -1,5 +1,5 @@
-#Why the second circle is not seen?
-#Task : Uncomment the code to see the output.
+#Why the second circle is not drawn?
+#Task : Uncomment line 8 and again run and observe the output.
 import turtle
 t=turtle.Turtle()
 t.shape("turtle")
