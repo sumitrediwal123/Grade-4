@@ -2,7 +2,6 @@
 import turtle
 t = turtle.Turtle()
 t.shape("turtle")
-t.pencolor("red")
 # Set the color to green
 t.color("green")
 # Begin to fill color
