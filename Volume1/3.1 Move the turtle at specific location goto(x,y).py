@@ -1,23 +1,18 @@
-#Task 1: Create third turtle of square shape of blue color and move it to (100,100)
-#Task 2: Create fourth turtle of circle shape of orange color and move it to (-100,100)
-
+# Task: Move the turtle at (-50,-100)
 import turtle
-#First turtle
-t1=turtle.Turtle()
-t1.shape("turtle")
-t1.goto(100,0)
-#Second turtle
-t2=turtle.Turtle()
-t2.shape("triangle")
-t2.color("red")
-t2.goto(0,100)
-#Third turtle
 
+t = turtle.Turtle()
+t.shape("turtle")
 
+# Move the turtle to a random place
+t.forward(100)
+t.left(90)
+t.forward(50)
 
+# Now, bring the turtle back to home point (0,0)
+t.goto(0, 0)
 
-#Fourth turtle
-
-
+# Task:
+t.goto( , )
 
 turtle.done()
