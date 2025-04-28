@@ -1,1 +1,6 @@
+#Task 1:- Run the code and observe the output
+#Task 2:- Correct the mistake to print "Hello!" 5 times
+
+for i in range(5):
+print("Hello!")
 
