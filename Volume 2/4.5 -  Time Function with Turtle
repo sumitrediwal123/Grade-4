@@ -1,0 +1,10 @@
+# Task 1: Run the code and observe the output
+# Task 2: Delay the forward command with 3 seconds.
+
+import turtle
+import time # Importing time module
+
+t = turtle.Turtle()
+t.circle(20)
+time.sleep(1)  # Wait for 1 second
+t.forward(100)
