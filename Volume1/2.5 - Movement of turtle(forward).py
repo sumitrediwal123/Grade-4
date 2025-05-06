@@ -1,4 +1,4 @@
-#Task:-  Move the turtle forward by 300 steps and create the circle of radius 100 after moving.
+#Task:-  Move the turtle forward by 300 steps in line 7 and create the circle of radius 100 after moving.
 import turtle
 t = turtle.Turtle()
 t.pencolor("red")
