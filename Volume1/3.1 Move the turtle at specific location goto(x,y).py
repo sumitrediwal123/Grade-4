@@ -13,6 +13,6 @@ t.forward(50)
 t.goto(0, 0)
 
 # Task:
-t.goto( , )
+t.goto()
 
 turtle.done()
