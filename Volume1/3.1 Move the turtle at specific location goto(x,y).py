@@ -1,4 +1,4 @@
-# Task: Move the turtle at (-50,-100)
+# Task: Uncomment the line 16 and move the turtle at (-50,-100)
 import turtle
 
 t = turtle.Turtle()
@@ -13,6 +13,6 @@ t.forward(50)
 t.goto(0, 0)
 
 # Task:
-t.goto()
+#t.goto()
 
 turtle.done()
