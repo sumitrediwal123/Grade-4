@@ -1,0 +1,61 @@
+import turtle
+
+# Create turtle object
+t = turtle.Turtle()
+
+# ---------- Flower (6 petals using circles) ----------
+t.penup()
+t.goto(0, 0)
+t.pendown()
+t.color("purple")
+
+t.circle(60)
+t.left(60)
+t.circle(60)
+t.left(60)
+t.circle(60)
+t.left(60)
+t.circle(60)
+t.left(60)
+t.circle(60)
+t.left(60)
+t.circle(60)
+t.left(60)
+
+# ---------- Stem ----------
+t.penup()
+t.goto(0, 0)
+t.right(90)
+t.color("green")
+t.pendown()
+t.forward(230)
+
+# ---------- Pot ----------
+t.penup()
+t.goto(-40, -170)
+t.setheading(0)
+t.color("brown")
+t.begin_fill()
+t.pendown()
+t.forward(80)
+t.right(90)
+t.forward(40)
+t.right(90)
+t.forward(80)
+t.right(90)
+t.forward(40)
+t.end_fill()
+
+# ---------- Sun with Fill ----------
+t.penup()
+t.goto(150, 150)
+t.setheading(0)
+t.color("yellow")
+t.pendown()
+t.begin_fill()
+t.circle(40)
+t.end_fill()
+
+# Finish
+t.hideturtle()
+turtle.done()
