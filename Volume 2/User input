@@ -1,2 +1,3 @@
+# Once you run the program, you have to give the input
 name = input("What is your name? ")
 print("Hello", name)
