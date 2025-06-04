@@ -1,0 +1,11 @@
+# Note:- It will check the conditions one by one, if the condition satisfy it will print that statement.
+# Task:- Change the weather from "sun" to "rain" and then check the output.
+
+weather = "sun"
+
+if weather == "rain":
+    print("Take an umbrella")
+elif weather == "sun":
+    print("Wear sunglasses")
+else:
+    print("Wear a cap")
