@@ -1,0 +1,7 @@
+#Note:- "int" is a integer datatype, because the length will be in number.
+# Task:- Draw a line in backward direction.
+import turtle
+
+length = int(input("Enter how long the line should be: ")) # Enter the length of the line.
+
+turtle.forward(length)
