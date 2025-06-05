@@ -1,0 +1,17 @@
+# Task:- Write a code to draw a circle in line no. 15
+
+import turtle
+
+shape = input("Enter shape to draw (square / circle): ")
+
+if shape == "square":
+    side = int(input("Enter the side length: "))
+    for i in range(4):
+        turtle.forward(side)
+        turtle.right(90)
+elif shape == "circle":
+    radius = int(input("Enter the radius: "))
+    # Write a code here to draw a circle
+
+else:
+    print("Invalid shape!")
